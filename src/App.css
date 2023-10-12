@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,700&display=swap');
 
 :root {
-
+  --main-dark: #343A40;
+  --main-light: #F4F6F9;
+  --text-white: #D6D8D9;
 }
 
 * {
@@ -16,11 +18,21 @@ body {
 
 .app__container {
   height: 100vh;
+  max-height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .page__routes {
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+a:hover {
+  color: #FFFFFF;
 }

@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="d-flex app__container">
       <Header />
-      <div className="col-10 page__routes" style={{ backgroundColor: "blue" }}>
+      <div className="col-10 container page__routes">
         <Routes>
           <Route path={"/"} element={<Dashboard />} />
           <Route path={"/analytics"} element={<Analytics />} />
