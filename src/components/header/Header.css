@@ -33,6 +33,11 @@
   color: var(--text-white);
 }
 
+.logo__container:hover .app__name,
+.logo__container:hover i {
+  color: #ffffff;
+}
+
 /* Profile styles */
 .profile {
   display: flex;

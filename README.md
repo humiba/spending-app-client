@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Project: Spending App with React and Google Sheets
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created for personal spending management (payment, receive, analytics spending behaviors)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. CRUD spending category
 
-### `npm start`
+2. CRUD spending
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Report last-week spending
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Advanced Analytics
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Last Week Spending
 
-### `npm run build`
+2. Analytics & Reports
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Add New Spending
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Add Spending
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. All Categories
 
-### `npm run eject`
+## Technologies used & Refs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technologies used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS: The most frontend library framework created by Meta in 2013
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React-Hook-Form: This lib make form handling more easier
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Google Sheets: The spreadsheet used to store structured data
 
-## Learn More
+### Refs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React Official Documentation: [https://react.dev](https://react.dev).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Google Sheets App Script Documentation: [Google Sheets API Overview | Google for Developers](https://developers.google.com/sheets/api/guides/concepts) 
 
-### Code Splitting
+- React + Google Sheets tutorial: 
+  [How to Send Form Data To Google Sheet In React Website | Google Sheet As Your Rest API in React App](https://www.youtube.com/watch?v=ZA6j2PhXSUg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  [Source Code](https://codesandbox.io/s/formdata-to-google-sheet-forked-oz271c?file=%2Fsrc%2FApp.js)
 
-### Analyzing the Bundle Size
+  [AppScript Code](https://github.com/AnatuGreen/FormData-to-Google-Sheet)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

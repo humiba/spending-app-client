@@ -6,11 +6,11 @@ import { links } from "../../libs/links";
 
 export default function Header() {
   return (
-    <header className="col-2 container header">
+    <header className="col-2 header">
       {/* Logo */}
       <Link className="logo__container" to={"/"}>
         <i class="fa-solid fa-money-bill"></i>
-        <span className="app__name">Xài gì ghi dô</span>
+        <span className="app__name">Spending App</span>
       </Link>
 
       {/* Profile */}
