@@ -14,15 +14,13 @@ This project is created for personal spending management (payment, receive, anal
 
 ## Pages
 
-1. Last Week Spending
+1. Dashboard (Home page)
 
 2. Analytics & Reports
 
-3. Add New Spending
+3. Spending related pages
 
-4. Add Spending
-
-5. All Categories
+4. Spending category related pages
 
 ## Technologies used & Refs
 

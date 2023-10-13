@@ -21,12 +21,27 @@ export default function Header() {
 
       {/* Navigation links */}
       <nav className="d-flex flex-column nav__links">
-        {links.map((link) => (
+        {/* {links.map((link) => (
           <div key={link.id} className="link__container">
             <i className={`link__icon ${link.icon}`}></i>
             <a href={link.url} className="link__text">
               {link.text}
             </a>
+          </div>
+        ))} */}
+        {links.map((link) => (
+          <div key={link.pageGroup}>
+            <span className="page__group-title">{link.pageGroup}</span>
+            <ul>
+              {link.pages.map((page) => (
+                <li key={page.id} className="link__container">
+                  <i className={`link__icon ${page.icon}`}></i>
+                  <a href={page.url} className="link__text">
+                    {page.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </nav>

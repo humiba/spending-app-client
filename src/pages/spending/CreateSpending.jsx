@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Create() {
+export default function CreateSpending() {
   document.title = "Add New Spending";
   
   return (

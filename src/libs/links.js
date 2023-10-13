@@ -1,34 +1,55 @@
 const links = [
   {
-    id: 1,
-    url: "/",
-    text: "Last Week Spending",
-    icon: "fa-solid fa-chart-simple",
+    pageGroup: "Main",
+    pages: [
+      {
+        id: 1,
+        name: "Dashboard",
+        url: "/",
+        icon: "fa-solid fa-note-sticky",
+      },
+      {
+        id: 2,
+        name: "Analytics & Reports",
+        url: "/analytics",
+        icon: "fa-solid fa-chart-line",
+      },
+    ],
   },
   {
-    id: 2,
-    url: "/analytics",
-    text: "Analytics & Reports",
-    icon: "fa-solid fa-chart-simple",
+    pageGroup: "Spending",
+    pages: [
+      {
+        id: 3,
+        name: "Spending",
+        url: "/spending/all",
+        icon: "fa-solid fa-money-bill-transfer",
+      },
+      {
+        id: 4,
+        name: "Add Spending",
+        url: "/spending/add",
+        icon: "fa-solid fa-square-plus",
+      },
+    ],
   },
   {
-    id: 3,
-    url: "/create",
-    text: "Add Spending",
-    icon: "fa-solid fa-plus",
+    pageGroup: "Spending Category",
+    pages: [
+      {
+        id: 5,
+        name: "Spending Categories",
+        url: "/category/all",
+        icon: "fa-solid fa-star",
+      },
+      {
+        id: 6,
+        name: "Add Spending Category",
+        url: "/category/add",
+        icon: "fa-solid fa-square-plus",
+      },
+    ],
   },
-  {
-    id: 4,
-    url: "/category/create",
-    text: "Add Spending Category",
-    icon: "fa-solid fa-plus",
-  },
-  {
-    id: 5,
-    url: "/category/all",
-    text: "All Categories",
-    icon: "fa-solid fa-list"
-  }
 ];
 
 export { links };

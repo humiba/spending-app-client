@@ -2,7 +2,15 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
-import { Dashboard, Analytics, Create, Update, CreateCategory, Categories } from "./pages";
+import {
+  Dashboard,
+  Analytics,
+  UpdateSpending,
+  CreateCategory,
+  Categories,
+  CreateSpending,
+  Spending,
+} from "./pages";
 import { Header } from "./components";
 
 export default function App() {
@@ -13,10 +21,15 @@ export default function App() {
         <Routes>
           <Route path={"/"} element={<Dashboard />} />
           <Route path={"/analytics"} element={<Analytics />} />
-          <Route path={"/create"} element={<Create />} />
-          <Route path={"/update"} element={<Update />} />
+
+          {/* Spending related pages */}
+          <Route path={"/spending/all"} element={<Spending />} />
+          <Route path={"/spending/add"} element={<CreateSpending />} />
+          <Route path={"/spending/update/:id"} element={<UpdateSpending />} />
+
+          {/* Spending Category related pages */}
           <Route path={"/category/all"} element={<Categories />} />
-          <Route path={"/category/create"} element={<CreateCategory />} />
+          <Route path={"/category/add"} element={<CreateCategory />} />
           <Route path={"/category/update/:id"} element={<CreateCategory />} />
         </Routes>
       </div>
