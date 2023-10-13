@@ -28,22 +28,22 @@ This project is created for personal spending management (payment, receive, anal
 
 ### Technologies used
 
-- ReactJS: The most frontend library framework created by Meta in 2013
+ReactJS: The most frontend library framework created by Meta in 2013
 
-- React-Hook-Form: This lib make form handling more easier
+React-Hook-Form: This lib make form handling more easier
 
-- Google Sheets: The spreadsheet used to store structured data
+Google Sheets: The spreadsheet used to store structured data
 
 ### Refs
 
-- React Official Documentation: [https://react.dev](https://react.dev).
+React Official Documentation: [https://react.dev](https://react.dev).
 
-- Google Sheets App Script Documentation: [Google Sheets API Overview | Google for Developers](https://developers.google.com/sheets/api/guides/concepts) 
+Google Sheets App Script Documentation: [Google Sheets API Overview | Google for Developers](https://developers.google.com/sheets/api/guides/concepts) 
 
-- React + Google Sheets tutorial: 
-  [How to Send Form Data To Google Sheet In React Website | Google Sheet As Your Rest API in React App](https://www.youtube.com/watch?v=ZA6j2PhXSUg)
+React + Google Sheets tutorial: 
+- [How to Send Form Data To Google Sheet In React Website | Google Sheet As Your Rest API in React App](https://www.youtube.com/watch?v=ZA6j2PhXSUg)
 
-  [Source Code](https://codesandbox.io/s/formdata-to-google-sheet-forked-oz271c?file=%2Fsrc%2FApp.js)
+- [Source Code](https://codesandbox.io/s/formdata-to-google-sheet-forked-oz271c?file=%2Fsrc%2FApp.js)
 
-  [AppScript Code](https://github.com/AnatuGreen/FormData-to-Google-Sheet)
+- [AppScript Code](https://github.com/AnatuGreen/FormData-to-Google-Sheet)
 
