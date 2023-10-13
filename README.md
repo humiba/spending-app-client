@@ -26,11 +26,15 @@ This project is created for personal spending management (payment, receive, anal
 
 ### Technologies used
 
-ReactJS: The most frontend library framework created by Meta in 2013
+`ReactJS:` The most frontend library framework created by Meta in 2013
 
-React-Hook-Form: This lib make form handling more easier
+`React-Hook-Form:` This lib make form handling more easier
 
-Google Sheets: The spreadsheet used to store structured data
+`Redux:` A Predictable State Container for JS Apps
+
+`Redux Toolkit:` The official, opinionated, batteries-included toolset for efficient Redux development
+
+`Google Sheets:` The spreadsheet used to store structured data
 
 ### Refs
 
@@ -38,10 +42,8 @@ React Official Documentation: [https://react.dev](https://react.dev).
 
 Google Sheets App Script Documentation: [Google Sheets API Overview | Google for Developers](https://developers.google.com/sheets/api/guides/concepts) 
 
-React + Google Sheets tutorial: 
-- [How to Send Form Data To Google Sheet In React Website | Google Sheet As Your Rest API in React App](https://www.youtube.com/watch?v=ZA6j2PhXSUg)
+SheetDB.io Documentation: [SheetDB API documentation](https://docs.sheetdb.io/) 
 
-- [Source Code](https://codesandbox.io/s/formdata-to-google-sheet-forked-oz271c?file=%2Fsrc%2FApp.js)
+### Notes
 
-- [AppScript Code](https://github.com/AnatuGreen/FormData-to-Google-Sheet)
-
+`createAsyncThunk`: A function that accepts a Redux action type string and a callback function that should return a promise. It generates promise lifecycle action types based on the action type prefix that you pass in, and returns a thunk action creator that will run the promise callback and dispatch the lifecycle actions based on the returned promise.
