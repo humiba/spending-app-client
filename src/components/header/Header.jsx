@@ -9,7 +9,7 @@ export default function Header() {
     <header className="col-2 header">
       {/* Logo */}
       <Link className="logo__container" to={"/"}>
-        <i class="fa-solid fa-money-bill"></i>
+        <i className="fa-solid fa-money-bill"></i>
         <span className="app__name">Spending App</span>
       </Link>
 
@@ -21,14 +21,6 @@ export default function Header() {
 
       {/* Navigation links */}
       <nav className="d-flex flex-column nav__links">
-        {/* {links.map((link) => (
-          <div key={link.id} className="link__container">
-            <i className={`link__icon ${link.icon}`}></i>
-            <a href={link.url} className="link__text">
-              {link.text}
-            </a>
-          </div>
-        ))} */}
         {links.map((link) => (
           <div key={link.pageGroup}>
             <span className="page__group-title">{link.pageGroup}</span>

@@ -1,1 +1,1 @@
-export const basicEndpoint = "https://sheetdb.io/api/v1/fqx19zrhq9dew";
+export const apiEndpoint = "http://localhost:8080/api";

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,700&display=swap");
 
 :root {
-  --main-dark: #343A40;
-  --main-light: #F4F6F9;
-  --text-white: #D6D8D9;
+  --main-dark: #343a40;
+  --main-light: #f4f6f9;
+  --text-white: #d6d8d9;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .app__container {
@@ -24,9 +24,8 @@ body {
 }
 
 .page__routes {
-  width: 100%;
-  /* background-color: #fff; */
-  background-color: rgb(190, 46, 46); /* Test Color */ 
+  background-color: #f9f9f9;
+  height: 100%;
 }
 
 a {
@@ -35,5 +34,10 @@ a {
 }
 
 a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.required__warning,
+.error__warning {
+  color: red;
 }

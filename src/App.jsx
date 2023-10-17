@@ -10,6 +10,7 @@ import {
   Categories,
   CreateSpending,
   Spending,
+  UpdateCategory,
 } from "./pages";
 import { Header } from "./components";
 
@@ -30,7 +31,7 @@ export default function App() {
           {/* Spending Category related pages */}
           <Route path={"/category/all"} element={<Categories />} />
           <Route path={"/category/add"} element={<CreateCategory />} />
-          <Route path={"/category/update/:id"} element={<CreateCategory />} />
+          <Route path={"/category/update/:id"} element={<UpdateCategory />} />
         </Routes>
       </div>
     </div>

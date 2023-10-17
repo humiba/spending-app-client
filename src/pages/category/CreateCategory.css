@@ -1,0 +1,18 @@
+.form__container {
+  width: 100%;
+}
+
+.category__form {
+  width: 60%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.category__form div {
+  width: 100%;
+}
+
+.category__form div,
+.category__form .submit {
+  margin: 10px auto;
+}
