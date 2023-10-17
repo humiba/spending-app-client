@@ -1,4 +1,4 @@
-# Project: Spending App with React and Google Sheets
+# Project: Spending App with React, Node, Express and MySQL
 
 This project is created for personal spending management (payment, receive, analytics spending behaviors)
 
@@ -30,20 +30,15 @@ This project is created for personal spending management (payment, receive, anal
 
 `React-Hook-Form:` This lib make form handling more easier
 
-`Redux:` A Predictable State Container for JS Apps
+`NodeJS`:
 
-`Redux Toolkit:` The official, opinionated, batteries-included toolset for efficient Redux development
-
-`Google Sheets:` The spreadsheet used to store structured data
+`ExpressJS`:
 
 ### Refs
 
 React Official Documentation: [https://react.dev](https://react.dev).
 
-Google Sheets App Script Documentation: [Google Sheets API Overview | Google for Developers](https://developers.google.com/sheets/api/guides/concepts) 
 
-SheetDB.io Documentation: [SheetDB API documentation](https://docs.sheetdb.io/) 
 
 ### Notes
 
-`createAsyncThunk`: A function that accepts a Redux action type string and a callback function that should return a promise. It generates promise lifecycle action types based on the action type prefix that you pass in, and returns a thunk action creator that will run the promise callback and dispatch the lifecycle actions based on the returned promise.
